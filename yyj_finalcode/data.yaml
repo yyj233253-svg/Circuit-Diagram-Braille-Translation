@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 14
+names: ['C1', 'C2', 'I1', 'I2', 'I3', 'I4', 'L1', 'L2', 'R1', 'R2', 'V1', 'V2', 'V3', 'V4']
+
+roboflow:
+  workspace: yooncau
+  project: my-first-project-hrzqm
+  version: 11
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yooncau/my-first-project-hrzqm/dataset/11
